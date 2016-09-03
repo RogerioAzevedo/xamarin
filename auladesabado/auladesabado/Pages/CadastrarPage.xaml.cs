@@ -9,7 +9,7 @@ namespace auladesabado
 	{
 		async void Handle_Clicked(object sender, System.EventArgs e)
 		{
-			await Navigation.PopModalAsync(true);
+			App.Current.MainPage = new LoginPage();
 		}
 
 		public CadastrarPage()
