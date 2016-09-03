@@ -1,1 +1,4 @@
-﻿<Properties StartupItem="iOS/auladesabado.iOS.csproj" />
+﻿<Properties StartupItem="iOS/auladesabado.iOS.csproj">
+  <MonoDevelop.Ide.ItemProperties.auladesabado.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MonoDevelop.Ide.ItemProperties.auladesabado.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.51D167CC-9DFB-4D0C-9717-A02B75FB9FDA" />
+</Properties>
