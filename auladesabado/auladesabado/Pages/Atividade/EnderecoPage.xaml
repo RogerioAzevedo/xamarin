@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="auladesabado.EnderecoPage">
+	<ContentPage.Content>
+		<StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Spacing="15">
+			
+			<Entry x:Name="txtCEP" WidthRequest="100" Unfocused="Handle_Focused" Placeholder="Digite o CEP"></Entry>
+			<Entry x:Name="txtEndereco" WidthRequest="100" IsEnabled="false"></Entry>
+			<Entry x:Name="txtBairro" WidthRequest="300" IsEnabled="false"></Entry>
+			<Entry x:Name="txtCidade" WidthRequest="300" IsEnabled="false"></Entry>
+			<Entry x:Name="txtEstado" WidthRequest="300" IsEnabled="false"></Entry>
+			<Entry x:Name="txtNumero" WidthRequest="300"></Entry>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

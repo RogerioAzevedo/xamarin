@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="auladesabado.LoginPage2" BackgroundColor="Gray">
+	<ContentPage.Content>
+		<StackLayout Orientation="Vertical" HorizontalOptions ="CenterAndExpand" VerticalOptions="CenterAndExpand" Spacing="15">
+			<Entry x:Name="txtLogin" WidthRequest="300" HeightRequest="40" Placeholder="usuario" PlaceholderColor="Silver" TextColor="Black" BackgroundColor="White"/>
+			<Entry x:Name="txtRecuperar" WidthRequest="300" HeightRequest="40" Placeholder="senha" PlaceholderColor="Silver" TextColor="Black" BackgroundColor="White" IsPassword="true"/>
+
+			<StackLayout Orientation="Horizontal" VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand">
+				<Button x:Name="btnEntrar" Clicked="Handle_Clicked"  WidthRequest="100" HeightRequest="50" Text="Login" BackgroundColor="Silver" TextColor="Black">Entrar</Button>
+				<Button x:Name="btnRecuperar" Clicked="Recuperar_Clicked"  WidthRequest="100" HeightRequest="50" Text="Cadastrar" BackgroundColor="Silver" TextColor="Black">Recuperar</Button>
+			</StackLayout>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

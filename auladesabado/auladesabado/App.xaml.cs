@@ -17,7 +17,7 @@ namespace auladesabado
 
 			//MainPage = new TabbedMainPage();
 
-			MainPage = new NavigationPage(new LoginPage());
+			MainPage = new NavigationPage(new LoginPage2());
 
 		}
 

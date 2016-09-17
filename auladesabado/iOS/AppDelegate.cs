@@ -1,9 +1,10 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
 using Foundation;
 using UIKit;
+using Xamarin;
 
 namespace auladesabado.iOS
 {
@@ -14,10 +15,11 @@ namespace auladesabado.iOS
 		{
 			global::Xamarin.Forms.Forms.Init();
 
+			FormsMaps.Init();
+
 			LoadApplication(new App());
 
 			return base.FinishedLaunching(app, options);
 		}
 	}
 }
-

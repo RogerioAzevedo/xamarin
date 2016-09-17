@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="auladesabado.DadosPage"
+		Title="Dados" xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps">
+	<ContentPage.Content>
+		<StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+			<maps:Map x:Name="map" WidthRequest="300" HeightRequest="300" IsShowingUser="true"/>
+
+			<Entry x:Name="lblLat"/>
+			<Entry x:Name="lblLong"/>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

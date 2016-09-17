@@ -3,7 +3,7 @@
 		xmlns:mypages="clr-namespace:auladesabado;assembly=auladesabado" Title="Tabbed" >
 	<TabbedPage.Children>
 		<!--<mypages:LoginPage Title="Login" BackgroundColor="Blue"/>-->
-		<mypages:CadastrarPage Title="Cadastrar" BackgroundColor="Red"/>
+
 		<mypages:RecuperarSenhaPage Title="Recuperar" BackgroundColor="Green"/>
 
 	</TabbedPage.Children>
